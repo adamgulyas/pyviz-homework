@@ -53,43 +53,7 @@ You must have Anaconda and Jupyter Lab installed and be running Python >= 3.7 to
 
 7. Run all cells in Jupyter and view the dashboard in the browser by executing the final cell `dashboard.servable()`.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
 
 ## Results
 
