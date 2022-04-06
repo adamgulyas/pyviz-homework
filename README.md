@@ -6,14 +6,14 @@ You must have Anaconda and Jupyter Lab installed and be running Python >= 3.7 to
 
 1. Set up a new Anaconda environment called `pyvizenv`.
 
-    ```python
+    ```shell
     conda update anaconda
     conda create -n pyvizenv python=3.7 anaconda -y
     conda activate pyvizenv
     ```
 
 2. Install environment dependencies.
-    ```python
+    ```shell
     pip install python-dotenv
     pip install numpy==1.19
     pip install matplotlib==3.0.3
@@ -26,7 +26,7 @@ You must have Anaconda and Jupyter Lab installed and be running Python >= 3.7 to
 
 3. Install the Jupyter Lab extensions.
 
-    ```python
+    ```shell
     jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build
     jupyter labextension install jupyterlab-plotly --no-build
     jupyter labextension install plotlywidget --no-build
@@ -35,13 +35,13 @@ You must have Anaconda and Jupyter Lab installed and be running Python >= 3.7 to
 
 4. Build the Extensions.
 
-    ```python
+    ```shell
     jupyter lab build
     ```
 
 5. Ensure the successful installation of the dependencies by finding them in Anaconda.
 
-    ```python
+    ```shell
     conda list nodejs
     conda list holoviz
     conda list hvplot
