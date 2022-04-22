@@ -65,7 +65,7 @@ Use the map plot to get a birdseye view of the cost of Toronto neighbourhoods. T
 
 ### Dwelling Type Units per Year
 
-The sum number of dwelling type units per year. The bar heights change as the years go on, indicating which dwelling types gained or lost popularity.
+The sum number of dwelling type units per year. Dwelling values (represented by the bars) change as the years go on, indicating which dwelling types gained or lost popularity.
 
 ![bar_chart_1-4](./images/bar_chart_1-4.png)
 
